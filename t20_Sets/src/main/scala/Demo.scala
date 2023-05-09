@@ -31,7 +31,7 @@ object Demo {
     myset.foreach(println) // 1\n 2\n 3\n 4\n
 
     for(name <- names){
-      println(name) // A\n B\n C\n D\n ... 
+      println(name) // A\n B\n C\n D\n ...
     }
 
 
