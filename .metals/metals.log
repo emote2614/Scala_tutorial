@@ -1,0 +1,86 @@
+2023.05.15 00:35:10 INFO  Started: Metals version 0.11.12 in workspace '/Users/cbs/Desktop/Scala/Scala_tutorial' for client Visual Studio Code 1.78.1.
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/cbs/Desktop/Scala/Scala_tutorial/.metals/metals (H2 2.1)
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.007s)
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+5월 15, 2023 12:35:10 오전 org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.024s)
+2023.05.15 00:35:10 INFO  time: initialize in 0.31s
+2023.05.15 00:35:11 WARN  Build server is not auto-connectable.
+5월 15, 2023 12:35:11 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.05.15 00:35:11 WARN  no build tool detected in workspace '/Users/cbs/Desktop/Scala/Scala_tutorial'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.15 00:35:11 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 00:35:14 INFO  no build target found for /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.15 00:35:14 INFO  time: code lens generation in 3.38s
+5월 15, 2023 12:35:17 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+5월 15, 2023 12:35:23 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+5월 15, 2023 12:35:24 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.15 00:35:28 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 00:35:33 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 00:35:34 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 00:36:15 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+5월 15, 2023 12:36:39 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.15 00:36:45 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+5월 15, 2023 12:36:51 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+5월 15, 2023 12:37:06 오전 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.15 00:37:09 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 00:37:41 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 11:31:35 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 13:04:50 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 13:26:10 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 13:37:36 INFO  Shutting down server
+2023.05.15 13:37:36 INFO  shutting down Metals
+2023.05.15 13:37:36 INFO  Exiting server
+2023.05.15 16:18:42 INFO  Started: Metals version 0.11.12 in workspace '/Users/cbs/Desktop/Scala/Scala_tutorial' for client Visual Studio Code 1.78.1.
+5월 15, 2023 4:18:42 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+5월 15, 2023 4:18:42 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+5월 15, 2023 4:18:42 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+5월 15, 2023 4:18:43 오후 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/cbs/Desktop/Scala/Scala_tutorial/.metals/metals (H2 2.1)
+5월 15, 2023 4:18:43 오후 org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.065s)
+5월 15, 2023 4:18:43 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+5월 15, 2023 4:18:43 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.15 16:18:43 INFO  time: initialize in 1s
+2023.05.15 16:18:47 WARN  Build server is not auto-connectable.
+2023.05.15 16:18:47 WARN  no build tool detected in workspace '/Users/cbs/Desktop/Scala/Scala_tutorial'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.15 16:18:47 WARN  no build target for: /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala
+2023.05.15 16:18:52 INFO  no build target found for /Users/cbs/Desktop/Scala/Scala_tutorial/t09_For/src/main/scala/Demo.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.15 16:18:55 INFO  time: code lens generation in 7.76s
+5월 15, 2023 4:27:03 오후 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.15 16:27:06 INFO  Shutting down server
+2023.05.15 16:27:06 INFO  shutting down Metals
+2023.05.15 16:27:06 INFO  Exiting server

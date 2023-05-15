@@ -29,7 +29,7 @@ object Demo {
     println("----------------------------")
     val result = for (i <- lst if i < 6) yield {
       i * i
-    }
+    } // for + yield = 컬렉션을 변환하거나 필터링하는 작업을 수행
     println("result = " + result)
 
   }
